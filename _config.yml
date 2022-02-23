@@ -15,9 +15,9 @@ menu:
   #   url: /archives
   # tags:
   #   url: /tags
-  # th-list:
-  #   text: Categories
-  #   url: /categories
+  th-list:
+    text: 分类
+    url: /categories
   github:
     url: https://github.com/scarqin
     target: _blank
@@ -46,7 +46,7 @@ color: '#3F51B5'
 # 页面标题
 tags_title: Tags
 archives_title: Archives
-categories_title: Categories
+categories_title: 分类
 
 # 文章截断
 excerpt_render: false
@@ -76,7 +76,7 @@ hideMenu: true
 # 是否开启toc
 # toc: false
 toc:
-  list_number: true  # 是否显示数字排序
+  list_number: false  # 是否显示数字排序
 
 # 文章页留言内容，hexo中所有变量及辅助函数等均可调用，具体请查阅 hexo.io
 # postMessage: 这里可以写作者留言，标签和 hexo 中所有变量及辅助函数等均可调用，示例：<a href="<%- url_for(page.path).replace(/index\.html$/, '') %>" target="_blank" rel="external"><%- page.permalink.replace(/index\.html$/, '') %></a>
@@ -159,7 +159,7 @@ visit_counter:
 
 # 动态定义title
 title_change:
-  normal: 热爱生活的平凡人
+  normal: 秦一
   leave: 秦一
 
 # 设置为 true 发布后将使用 unpkg cdn 最新的主题样式
