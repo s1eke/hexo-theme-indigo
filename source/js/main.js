@@ -155,7 +155,6 @@
                     myChild.classList.add("post-toc-expand");
                 }
             };
-
             return {
                 fixed: function (top) {
                     top >= bannerH - headerH
