@@ -478,7 +478,6 @@
             });
         },
     };
-
     w.addEventListener("load", function () {
         loading.classList.remove("active");
         Blog.page.loaded();
@@ -492,7 +491,6 @@
         Blog.toc.actived(top);
         Blog.page.loaded();
     });
-
     var ignoreUnload = false;
     var $mailTarget = $('a[href^="mailto"]');
     if ($mailTarget) {
