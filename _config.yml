@@ -15,12 +15,12 @@ menu:
   #   url: /archives
   # tags:
   #   url: /tags
-  th-list:
-    text: 分类
-    url: /categories
-  github:
-    url: https://github.com/scarqin
-    target: _blank
+  # th-list:
+  #   text: 分类
+  #   url: /categories
+  # github:
+  #   url: https://github.com/scarqin
+  #   target: _blank
   # weibo:
   #   url: http://www.weibo.com/
   #   target: _blank
